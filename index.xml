@@ -16,7 +16,11 @@ pacman -S texlive-bibtexextra
 &lt;/code>&lt;/pre>&lt;h1 id="texstudio----editor">texstudio &amp;ndash; editor&lt;/h1>
 &lt;pre tabindex="0">&lt;code>pacman -S texstudio
 &lt;/code>&lt;/pre>&lt;h1 id="sioyek----pdf-viewer">sioyek &amp;ndash; pdf-viewer&lt;/h1>
-&lt;h1 id="zathura----pdf-viewer">zathura &amp;ndash; pdf-viewer&lt;/h1>
+&lt;h2 id="installation">installation&lt;/h2>
+&lt;pre tabindex="0">&lt;code>pacman -S sioyek
+# error: Could not find the Qt platform plugin &amp;#34;wayland&amp;#34; in &amp;#34;&amp;#34;
+pacman -S qt5-wayland
+&lt;/code>&lt;/pre>&lt;h1 id="zathura----pdf-viewer">zathura &amp;ndash; pdf-viewer&lt;/h1>
 &lt;h1 id="tectonic----tex-engine">tectonic &amp;ndash; tex engine&lt;/h1></description></item><item><title>TODO list</title><link>https://aunomax.github.io/post/todo/</link><pubDate>Wed, 05 Jun 2024 10:41:42 +0800</pubDate><author>mao_xuan@outlook.com (Xuan Mao)</author><guid>https://aunomax.github.io/post/todo/</guid><description>&lt;p>-[] tectonic
 -[] sioyek
 -[] zathura&lt;/p></description></item><item><title>climb the great wall</title><link>https://aunomax.github.io/post/great_wall/</link><pubDate>Sat, 01 Jun 2024 16:01:42 +0800</pubDate><author>mao_xuan@outlook.com (Xuan Mao)</author><guid>https://aunomax.github.io/post/great_wall/</guid><description>&lt;h1 id="v2raya--v2ray">v2raya + v2ray&lt;/h1>
@@ -69,6 +73,7 @@ pacman -S noto-fonts-emoji noto-fonts-extra
 &lt;pre tabindex="0">&lt;code> pacman -S sway alacritty
 pacman -S wofi
 pacman -S swaybg
+pacman -S swaylock
 pacman -S waybar ttf-font-awesome
 &lt;/code>&lt;/pre>&lt;ul>
 &lt;li>git&lt;/li>
@@ -95,13 +100,13 @@ pacman -S fcitx5-gtk fcitx5-qt
 &lt;/code>&lt;/pre>&lt;ul>
 &lt;li>audio component&lt;/li>
 &lt;/ul>
-&lt;pre tabindex="0">&lt;code>pacman -S pulseaudio pulseaudio-alsa alsa-utils
+&lt;pre tabindex="0">&lt;code>pacman -S pulseaudio pulseaudio-alsa #alsa-utils
 &lt;/code>&lt;/pre>&lt;ul>
 &lt;li>bluetooth suite&lt;/li>
 &lt;/ul>
 &lt;pre tabindex="0">&lt;code>pacman -S bluez bluez-utils
 pacman -S pulseaudio-bluetooth
-pacman -S blueman
+# pacman -S blueman
 &lt;/code>&lt;/pre>&lt;ul>
 &lt;li>background brightness&lt;/li>
 &lt;/ul>
@@ -133,6 +138,10 @@ pacman -S pot-translation
 &lt;/ul>
 &lt;pre tabindex="0">&lt;code>pacman -S unrar
 # usage: unrar x file.rar
+&lt;/code>&lt;/pre>&lt;ul>
+&lt;li>netease music player&lt;/li>
+&lt;/ul>
+&lt;pre tabindex="0">&lt;code>pacman -S netease-cloud-music-gtk4
 &lt;/code>&lt;/pre></description></item><item><title>alist+aria2</title><link>https://aunomax.github.io/post/alist+aria2/</link><pubDate>Thu, 23 May 2024 12:03:05 +0800</pubDate><author>mao_xuan@outlook.com (Xuan Mao)</author><guid>https://aunomax.github.io/post/alist+aria2/</guid><description>&lt;h1 id="alist--aria2--onedrive">Alist + aria2 + OneDrive&lt;/h1>
 &lt;h2 id="install-aria2">install aria2&lt;/h2>
 &lt;pre tabindex="0">&lt;code>pacman -S aria2
